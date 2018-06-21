@@ -1,0 +1,46 @@
+#!/usr/bin/env php
+<?php
+use Symfony\Component\Yaml\Yaml;
+try{
+include __DIR__ ."/bootstrap.php";
+
+$path = __DIR__ . '/config/model.yml';
+if (!isset($argv[1]) ||  !isset($argv[2]) || !isset($argv[3]))
+{
+
+    echo "              Argument missing: \n";
+    echo "              Argument 1 should be the database table name \n";
+    echo "              Argument 2 should be the NameSpace of the Model Class \n";
+    echo "              Argument 3 should be the name in the F3 \n";
+    exit;
+}
+
+$tableName = $argv[1];
+$modelNameSpace = $argv[2];
+$f3name = $argv[3];
+
+$models = Yaml::parse(file_get_contents($path));
+$models[$f3name] = $modelNameSpace;
+
+file_put_contents($path, Yaml::dump($models));
+$classtmp = explode("\\", $modelNameSpace);
+$className = $classtmp[count($classtmp)-1];
+
+$classFile = '<?php
+
+namespace Models;
+
+class '.$className.' extends ModelBase
+{
+    protected $tableName="'. $tableName .'";
+
+}
+';
+
+file_put_contents(__DIR__ . '/Models/' . $className .'.php', $classFile);
+
+echo "That's all Folks!!\n";
+}catch (Error $e) {
+    echo "An error has occurred while executing the command Please referrer to the following error: \n";
+    echo $e->getMessage() . '\n';
+}

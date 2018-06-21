@@ -1,0 +1,13 @@
+<div class="cal-month-day ">
+
+    <span
+            class="pull-right"
+            data-cal-date
+            ng-bind="day.label">
+    </span>
+
+        <p style="padding-left: 4px; padding-top: 4px;" ng-repeat="(key, value) in day.events" >
+            <span ng-if="!value.dispo" class="label label-info">{{value.title}}</span>
+            <span ng-if="value.dispo" ng-class="value.etat_fermer_contrat && value.etat_fermer_journal  ? 'label-warning' : 'label-danger' " class="label label-warning">{{value.title}}</span>
+        </p>
+</div>

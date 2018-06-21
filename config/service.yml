@@ -1,0 +1,6 @@
+service.tools: Services\Tools
+debugger: Services\BebugBar
+service.user: Services\UserService
+service.channel_manager: Services\XML
+service.PDF: Services\PDF
+

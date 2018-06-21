@@ -1,0 +1,539 @@
+@media print {
+* {
+	padding:0;
+	margin:0;
+	font-family:Arial; 
+	font-size:11px; 
+	}
+	
+.style_titre {
+	font-size:14px; 
+	font-weight:bold;   
+	color:#000000;
+	padding:4mm 0mm 4mm 0mm;
+	}
+
+.style_titre h2 {
+	font-size:12px; 
+	}
+	
+.sous_titre {
+	color:#666666;
+	padding:2mm 0mm 2mm 0mm;
+	}
+	
+.sous_titre h3 {
+
+	}
+
+.txt_info {
+	font-size:10px;
+	line-height:15pt;
+	 
+	}
+	
+.style_h3_voyages {
+	font-size:13pt;
+	}
+	
+.style_small_slogan {
+	font-size:10px; 
+	font-weight:normal;   
+	color:#a9974e;
+	padding:0mm 0mm 2mm 0mm;
+}
+
+.gris {
+	color:#666666;
+	}
+
+.style_small {
+	font-size:10px; 
+	font-weight:normal;
+	padding:0mm 0mm 0mm 0mm;  
+}
+
+
+.style_gris  {
+	font-size:10px; 
+	padding:0mm 0mm 1mm 0mm;  
+}
+
+.remarque_service {
+	padding:2mm 2mm 2mm 2mm;
+	font-size:10px;
+	color:#999999;
+	width:96%;	
+	}
+	
+
+.bloc_diviser_d_g {
+	background:#3b393a;
+	width:100%;
+	padding:2mm 2mm 2mm 2mm;
+	border:solid 10px #111111;
+	}
+	
+.bloc_diviser_d_g tr th img {
+	height:15mm;
+	}
+	
+	
+.style_h3_top {
+	border-bottom:1px dashed #DDDDDD;
+	font-size:14px;
+	color:#42536D;
+	font-weight:bold;
+	padding-bottom:3mm;
+	}
+	
+.style_h3_prestation td {
+	border-bottom:1px dashed #DDDDDD;
+	font-size:14px;
+	color:#42536D;
+	font-weight:bold;
+	padding-bottom:3mm;
+	}
+	
+	
+.style_h2 {
+	color:#399FE4;
+	font-size:28px;
+	font-weight:normal;
+	}
+	
+.txt_numero_facture {
+	color:#399FE4;
+	}
+	
+.style_h2 span {
+	color:#666666;
+	}
+	
+.style_h3 {
+	color: #CCCCCC;
+	font-size:12px;
+	font-weight:normal;
+	text-transform:uppercase;
+	}
+	
+.style_h4_num_heb {
+	background:#55A2E6;
+	display:block;
+	padding:5px;
+	margin:0px 0 10px ;
+	font-size:12px;
+	font-weight:normal;
+	color:#ffffff;
+	}
+	
+.style_h4_num_heb p {
+	font-size:11px;
+	color:#f5f5f5;
+	}
+	
+.date_option {
+	background:#CC0000;
+	padding:2px 5px;
+	color:#FFFFFF;
+	margin:5px;
+	width:30%;
+	text-align:right;
+	}
+	
+.tab_quota , .tab_details_resa {
+	width: 100%;
+	border: 1px solid #B9D4EC;
+	background: #f2f2f2; 
+	font-size: 12pt;
+	padding: 2mm 2mm 2mm 2mm;
+	}
+
+.tab_quota_tarifs tr td  {
+	vertical-align:top;
+	font-size:11px;
+	}
+	
+.tab_quota_tarifs {
+	width:100%;
+	}
+
+	
+.total_a_payer   {
+	font-size:12px;
+	text-align:right;
+	width:100%;
+	}
+
+
+.total_a_payer .total_montant {
+	width:50%;
+	vertical-align:middle;
+	background:#71C586;
+	color:#FFFFFF;
+	}
+	
+.tab_quota .total_montant .total {
+	text-transform:uppercase;
+	}
+	
+.tab_quota .total_montant .nbr_total {
+	 font-size:14px;
+	 font-weight:bold;
+	}
+	
+.bg_blanc  {
+	width:50%;
+	border:none;
+	}
+
+.td_vide_option {
+	width:70%;
+	border:none;
+	}
+
+
+.style_h2_proposal {
+	width: 100%; 
+	border:1px solid #F2F2F2;
+	background:#f9f9f9;
+	text-align: center; 
+	font-size: 18pt;
+	color: #666666;
+	}
+	
+.h2_popos {
+	font-size: 18pt;
+	font-weight:normal;
+	text-transform:uppercase;
+	}
+	
+
+.tab_quota_tarifs .title th, .tab_quota_service .bg_service  {
+	background:#4A98C9;
+	text-align:center;
+	font-size:11px;
+	border-right:1px solid #45a8df;
+	color:#FFFFFF;
+	font-weight:bold;
+	height:14mm;
+	vertical-align:middle;
+	padding:0 2mm;
+	}
+	
+.tab_quota tr .description_prestation {
+	background:grey;
+	text-align:center;
+	font-size:11px;
+	border-right:1px solid #45a8df;
+	color:#FFFFFF;
+	font-weight:bold;
+	height:14mm;
+	vertical-align:middle;
+	padding:0 2mm;
+	width:100%;
+	}
+	
+.fiche_service_presta {
+	width:100%;
+	border-bottom:1px dashed #DDDDDD;
+	padding:2mm 0 2mm 0;
+	}
+	
+	
+ 
+
+.tab_liste_destina, .tab_quota_service, .tab_quota_service .bg_service, .width_service , .tab_details_resa {
+	width: 100%;
+	}
+	
+.tab_liste_destina tr th {
+	padding:0 2mm 0 0;
+	}
+	
+.width_fixe {
+	width: 10%;
+	}
+	
+.style_standard {
+	font-weight:normal;
+	}
+	
+.style_100 {
+	width: 100%;
+	}
+	
+.fiche_service {
+	width: 50%;
+	vertical-align:top;
+	}
+	
+.td_tarifs {
+	width: 50%;
+	vertical-align:top;
+	}
+	
+.tab_groupe {
+	width:72%;
+	}
+	
+
+.td_tarifs .tab_groupe .libelle {
+	width: 20%;
+	}
+	
+.td_tarifs .tab_groupe .prix_uni {
+	width: 20%;
+	}
+	
+.td_tarifs .tab_groupe .qty {
+	width: 10%;
+	}
+	
+.td_tarifs .tab_groupe .grat, .td_tarifs .tab_groupe .gratuites {
+	width:35%;
+	}
+	
+.td_tarifs .tab_groupe .total {
+	width: 15%;
+	}	
+
+.tab_quota_tarifs  .libelle, .tab_quota_tarifs .nom_libelle  {
+	width: 30%;
+	}
+	
+.tab_quota_tarifs  .prix_uni {
+	width: 20%;
+	}
+	
+.tab_quota_tarifs  .qty {
+	width: 10%;
+	}
+	
+.tab_quota_tarifs  .nbr_nuits {
+	width: 15%;
+	}
+	
+	
+.tab_quota_tarifs  .total {
+	width: 25%;
+	}
+	
+.sans_nbr_nuit {
+	width:50%;
+	}
+	
+.sans_nbr_nuit .tab_quota_tarifs .libelle  {
+	width: 35%;
+	}
+	
+.sans_nbr_nuit .tab_quota_tarifs .prix_uni {
+	width: 25%;
+	}
+	
+.sans_nbr_nuit .tab_quota_tarifs .qty {
+	width: 15%;
+	}
+	
+	
+.sans_nbr_nuit .tab_quota_tarifs .total {
+	width: 25%;
+	}
+	
+	
+.tab_quota_tarifs .pdt_infos td {
+	text-align:center;
+	border-bottom:1px dashed #CCCCCC;
+	border-left:1px dashed #CCCCCC;
+	padding:2mm 1mm 2mm 1mm;
+	vertical-align:middle;
+	}
+	
+.td_anc_prix {
+	border-right:1px dashed #CCCCCC;
+	 }
+	
+.width_service {
+	padding:2mm 1mm 2mm 1mm;
+	}
+	
+.nom_service {
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#E89344;
+	font-size:12px;
+	}
+	
+.adresse_service {
+	color:#999999;
+	}	
+	
+.ancien_prix {
+	text-decoration:line-through;
+	color:#E89344;
+	display:block;
+	}
+	
+.new_prix {
+	font-size:14px;
+	}
+	
+
+	
+.tab_espacement .style_td_hauteur {
+	padding:2mm 0mm 2mm 0mm;
+	}
+
+	
+.tab_espacement {
+	width:100%;
+	}
+	
+.th_info_top {
+	padding-top:7mm;
+	}
+	
+	
+	
+.nb_info  {
+	background:#E84F4C;
+	text-align:center;
+	color:#FFFFFF;
+	padding:2mm 2mm 2mm 2mm;
+	width:100%;
+	}
+	
+.img_service {
+	width:25mm;
+	height:15mm;
+	float:left;
+	border:1px solid #B9D4EC;
+	margin:1mm 2mm 1mm 0mm;
+	}
+	
+.txt_service {
+	padding:0mm 0 0 0mm;
+	width:100%;
+	vertical-align:top;
+	}
+	
+	
+.description_service {
+	padding:2mm 0 0 0;
+	}
+	
+.tab_package {
+	width:100%;
+	}
+	
+.tab_package tr td.jour_pack   {
+	vertical-align:top;
+	border: solid 1mm #DDDDDD;
+	background-color: #EEEEEE;
+	padding: 2mm; 
+    border-radius: 2mm;
+	color:#333333;
+	width:30%;
+	}
+	
+.td_vide {
+	width:5%;
+	}
+	
+.serive_choisit {
+	list-style-image: url(../img/icons/a_suivre.png);
+	color:#0ec51e;
+	list-style:none;
+	padding:0mm;
+	margin:0mm;
+	}
+	
+
+	
+.tab_package tr td .gris_style {
+	background:#ffffff;
+	padding: 2mm;
+	vertical-align:top;
+	color:#999999;
+	border-radius: 1mm;
+	}
+	
+.tab_base_min tr td.base_pax  {
+	vertical-align:top;
+	border: solid 1mm #DDDDDD;
+	padding: 2mm; 
+    border-radius: 2mm;
+	color:#333333;
+	width:30%;
+	}
+	
+.base_pax h3 {
+	margin:0 0 5mm 0;
+	}
+	
+.tab_base_min tr td.base_pax .gratuites {
+	color:#2fb740;
+	}
+	
+.tab_base_min tr td.base_pax .reduction {
+	color:#2fb740;
+	}
+	
+.tab_base_min tr td.base_pax_proformat  {
+	vertical-align:top;
+	border: solid 1mm #DDDDDD;
+	padding: 2mm; 
+    border-radius: 2mm;
+	color:#333333;
+	width:100%;
+	}
+	
+.base_pax_proformat h3 {
+	margin:0 0 5mm 0;
+	}
+	
+.tab_base_min tr td.base_pax_proformat .gratuites {
+	color:#2fb740;
+	}
+	
+.tab_base_min tr td.base_pax_proformat .reduction {
+	color:#2fb740;
+	}
+	
+.tab_base_min tr td.base_pax  p {
+	margin-bottom:5px;
+	padding-bottom:5px;
+	} 
+	
+.element {
+	font-weight:bold;
+	}
+	
+.tab_base_min {
+	width:100%;
+	}
+	
+.ou_presta {
+	font-weight:bold;
+	color:#FF0000;
+	}
+#Banking_tab{
+    page-break-before: auto;
+ }
+   
+   
+   thead {
+      display: table-header-group;   
+   }
+ .titre_tab_resa_grand {
+    border-bottom: 1px solid #f5d784;
+    text-align: center;
+    padding: 4mm 2mm 4mm 2mm;
+    color: #2F2F2F;
+    font-size: 12px;
+    font-weight: bold;
+    background: #f5d784;
+    width: 36%;
+    vertical-align: middle;
+}
+}

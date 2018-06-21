@@ -1,0 +1,61 @@
+<style>
+    .modal {
+        margin-left: 260px;
+        width:700px;
+        height: 700px;
+    }
+</style>
+<div class="modal-header">
+    <h3 class="modal-title">Modification {{vm.event.startsAt | date: D-MM-yyyy}}</h3>
+</div>
+<div class="modal-body" ng-if="!vm.event.dispo">
+    <div ng-if="vm.event.prix" class="form-group">
+        <label for="prix">Prix</label>
+        <input class="form-control" id="prix" ng-model="vm.event.prix"/>
+    </div>
+    <div ng-if="vm.event.marge" class="form-group">
+        <label for="marge">Marge</label>
+        <input class="form-control" id="marge" ng-model="vm.event.marge"/>
+    </div>
+
+</div>
+<div class="modal-body" ng-if="vm.event.dispo">
+    <div class="form-group">
+        <label for="nbrc">Nombre Jour Contract</label>
+        <input class="form-control" id="nbrc" ng-model="vm.event.nbr_chambre_contrat"/>
+    </div>
+    <div class="form-group">
+        <label for="nbrj">Nombre Jour Journal</label>
+        <input class="form-control" id="nbrj" ng-model="vm.event.nbr_chambre_journal"/>
+    </div>
+    <div class="form-group">
+        <label for="rj">Retrocession Journal</label>
+        <input class="form-control" id="rj" ng-model="vm.event.retrocession_journal"/>
+    </div>
+    <div class="form-group">
+        <label for="rc">Retrocession Contrat</label>
+        <input class="form-control" id="rc" ng-model="vm.event.retrocession_contrat"/>
+    </div>
+    <div class="form-group">
+        <label for="ms">Min Stay</label>
+        <input class="form-control" id="ms" ng-model="vm.event.min_stay"/>
+    </div>
+    <div class="form-group">
+        <label for="mxs">Max Stay</label>
+        <input class="form-control" id="mxs" ng-model="vm.event.max_stay"/>
+    </div>
+    <div class="form-group">
+        <label for="etatfc">Etat Contrat</label>
+        <input type="checkbox" class="form-control" id="etatfc" ng-model="vm.event.etat_fermer_contrat"/>
+    </div>
+    <div class="form-group">
+        <label for="etatfj">Etat Journal</label>
+        <input type="checkbox" class="form-control" id="etatfj" ng-model="vm.event.etat_fermer_journal"/>
+    </div>
+
+</div>
+<div class="modal-footer">
+    <button class="btn btn-info" ng-click="$close()">Annuler</button>
+    <button class="btn btn-primary" ng-click="save($close)">OK</button>
+</div>
+    

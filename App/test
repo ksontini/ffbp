@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+try{
+    include "bootstrap.php";
+    $classtest = $argv[1];
+    $instanceName = "Tests\\" . $classtest;
+    $instance = new $instanceName(null, $f3);
+
+    $instance->execute();
+
+} catch(Exception $e)
+{
+    echo $e->getMessage();
+} catch(Error $e)
+{
+    echo $e->getMessage();
+}
